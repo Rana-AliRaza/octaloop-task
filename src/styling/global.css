@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.query-main{
+    background: url("../assets/images/qb.png");
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 50;
+  }
+  
