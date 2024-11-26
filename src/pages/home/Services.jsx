@@ -45,15 +45,14 @@ const Services = () => {
     },
   ]
   return (
-    <div className="services-section h-auto">
-      <p className="h-2 md:h-4 xl:h-6 bg-red-700"></p>
-      <div className="main relative  h-full">
+    <div className="services-section bg-red-900   h-auto">
+      <div className="main  relative  ">
         <video
           autoPlay
           loop
           muted
           playsInline
-          className=" inset-0 w-full h-fit z-0 object-co"
+          className=" inset-0 w-full h-fit z-0 object-cover"
         >
           <source src={service} type="video/mp4" />
           Your browser does not support the video tag.

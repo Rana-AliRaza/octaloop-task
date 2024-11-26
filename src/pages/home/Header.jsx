@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import vid from "../../assets/video/hero.mp4";
 
 const Header = () => {
@@ -26,7 +26,7 @@ const Header = () => {
             <span className="block">Generate With AI,</span>
             <span className="block">Scan, Mint, Sell </span>& Trade
          </h1>
-         <p className=" py-2 text-gray-200 w-2/3 mx-auto md:mx-2">
+         <p className=" py-4 text-gray-200 w-2/3 mx-auto md:mx-2">
            <span></span>Explore 3dotlink, where Web3 meets cultural legacy, and AI breathes life into NFTs
          </p>
          <button className="bg-primaryLight text-white text-sm py-3 px-8 mt-4 rounded-md font-sans">
@@ -35,6 +35,8 @@ const Header = () => {
 
         </div>
       </div>
+      <p className="h-2 md:h-4 xl:h-6 bg-red-700"></p>
+
     </header>
   );
 };
